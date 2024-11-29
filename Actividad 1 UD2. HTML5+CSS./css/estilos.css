@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Thin.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vanibold';
+    src: url('fonts/Vanib.ttf')format(truetype);
+}
+@font-face {
+    font-family: 'siggy';
+    src: url('fonts/Siggy-Regular-Italic.otf');
+}
+.cabecera{
+    background-color: #000000;
+    padding-left:10%;
+    padding-top: 2%;
+   
+}
+.titulocabecera{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    padding-bottom: 15px;
+
+} 
+.imagentitulo{
+    margin-bottom: 0;
+    width: 140px;
+    height: 35px;
+}
+.item{
+    display: inline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    margin: 5px;
+    padding-bottom: 2px;
+}
+.item-url{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    margin: 5px;
+    padding-bottom: 2px;
+    color: #222222;
+}
+.item-url:hover{
+    color: #CC0000;
+    text-decoration: none;
+}
+
+.item-actual{
+    display: inline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    margin: 5px;
+    padding-bottom: 2px;
+    border-bottom: solid  #CC0000 ;
+    
+}
+
+.autor{
+    font-size: small;
+    padding-top: 0;
+    margin-top: 0;
+    margin: 1% 10% 1% 0%;
+
+}
+
+.titulosection{
+    font-family: 'vanibold';
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin: 1% 10% 1% 0%;
+    
+}
+
+.lie-to-me{
+    width: 50vw;
+
+}
+
+.entradilla{
+    display: flex;
+    justify-content: center;
+    margin: auto 8vw;
+    padding-top: 1em ;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 14px;
+    
+}
+.the-guardian{
+    font-style: italic;
+}
+.img-ferran-esteve{
+    border-radius: 100%;
+    display: inline;
+    width: 20%;
+    height: 20%;
+    
+}
+
+.img-footer{
+    margin: 0;
+    width: 15vw;
+
+
+}
+.container-ferra{
+    margin-left: 3vw;
+}
+
+.figure-ferra-esteve{
+    display: flex;
+    align-items: end;
+    }
+.figure-ferra-esteve>p{
+    margin-left: 2vw;
+    font-size: 13px;
+}
+.figure-ferra-esteve>p>span{
+    font-family: 'siggy';
+    font-size: 15px;
+    
+}
+
+
+.info-noticia{
+    margin: 8% 17% 6%;
+    font-size: 1em;
+    font-family: 'siggy';
+}
+.info-noticia>a{
+    color: #CC0000;
+}
+.pgris{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    margin: 10px 60px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    
+}
+
+.woty{
+    display: flex;
+    justify-content: center;
+}
+.woty>img{
+    width: 50vw;
+}
+footer>p{
+    margin-top: 2vw;
+    padding: 0;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+text-align: center;
+box-shadow:0 1.7px #DDDDDD ;   
+}
+hr{
+    border: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+a{
+    color: #CC0000;
+    text-decoration: none;
+}
+h2{
+    margin: 2% 2% 1% 0;
+    font-family: 'vanibold';
+    
+    
+}
+
+article{
+    margin: 1% 0% 1% 0%;
+}
+
+
+figure{
+    display: grid;
+    justify-content: center;
+}
+figcaption{
+    text-align: center;
+    font-size: 11px;
+}
+
+.iframe-fin-confianza{
+    
+    width: 70vw;
+    height: 35vw;
+    border: 0;
+}
+.iframe-fin-terminologia{
+    width: 65vw;
+    height: 35vh;
+    border: 0;
+}
+.hate-speech{
+    font-family: 'siggy';
+}
+p{
+    line-height: 1.3em;
+    font-size: 0.9em;
+    margin: 2% 0 2% 0;
+    padding-left: 0;
+    text-align: justify;
+}
+footer{
+    background-color: #3B3B3B;
+    padding: 1% 10% 1% 10%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+margin: 0 10vw;
+}
+
+ol{
+    margin-left: 0;
+    padding-left: 0;
+}
+li{
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 1.8em;
+}
+dl{
+    margin-right:10% ;
+}
+dt{
+    font-size:1.1em;
+    font-weight:500;
+    
+}
+dd{
+    line-height: 1.3em;
+    font-size: 0.8em;
+    margin: 1% 0 2% 0;
+    padding-left: 0;
+    text-align: justify;
+}
+ul .li-imagen-1{
+    list-style-image: url('../img/press-icon.png');
+
+}
+
+.li-imagen-2{
+    list-style-image: url('../img/internet-icon.png');
+
+}
+
+ul{
+list-style-type: square;
+}
+.square{
+    list-style-type: square;
+}
+
+.contenedor-listas{
+    padding-left: 3%;
+}
+ul {
+    font-family: 'siggy';
+    list-style-type: square;
+
+}
+ul>li{
+    list-style-type: none;
+}

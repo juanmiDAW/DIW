@@ -1,0 +1,141 @@
+<div class="columna">
+                <div class="tabla-item">Título</div>
+                <div class="tabla-item">Directrius per a la selecció i ús dels recursos d'aprenentatge de les assignatures</div>
+                <div class="tabla-item">An overview of use, knowledge and perceptionsof the Internet in Spain</div>
+                <div class="tabla-item">Editorial: Applications of Risk Analysis & Analytics in Engineering, Economics, and Healthcare</div>
+                <div class="tabla-item">Review "Liquid power: contested hydro-modernities in twentieth-century Spain by Erik Swyngedouw"</div>
+                <div class="tabla-item">Book Review: Joost Beuving and Geert de Vries, Doing Qualitative Research: The Craft of Naturalistic Inquiry</div>
+                <div class="tabla-item">Educational Data Mining and Learning Analytics: differences, similarities, and time evolution</div>
+            </div>
+            <div class="columna">
+               
+                <div class="tabla-item">Autor</div>
+                <div class="tabla-item">Universitat Oberta de Catalunya. Biblioteca</div>
+                <div class="tabla-item">Aranda Juárez, Daniel; Sánchez-Navarro, Jordi; Mohammadi, Leila</div>
+                <div class="tabla-item">Juan, Angel A.; de Armas, Jesica; Calvet, Laura; Serra, Isabel</div>
+                <div class="tabla-item">March Corbella, Hug</div>
+                <div class="tabla-item">Greti-Iulia, Ivana</div>
+                <div class="tabla-item">Calvet Liñán, Laura; Juan Pérez, Angel A.</div>
+            </div>
+            <div class="columna">
+                <div class="tabla-item">Publicación</div>
+                <div class="tabla-item">octubre de 2018</div>
+                <div class="tabla-item">18 de junio de 2018</div>
+                <div class="tabla-item">noviembre de 2017</div>
+                <div class="tabla-item">enero de 2016</div>
+                <div class="tabla-item">25 de noviembre de 2016</div>
+                <div class="tabla-item">1 de junio de 2015</div>
+            </div>
+            <div class="columna">
+                <div class="tabla-item">Editorial</div>
+                <div class="tabla-item">Universitat Oberta de Catalunya (UOC)</div>
+                <div class="tabla-item">Data in Brief</div>
+                <div class="tabla-item">Int. J. Data Analysis Techniques and Strategies</div>
+                <div class="tabla-item">Area. Royal Geographical Society</div>
+                <div class="tabla-item">Qualitative Research</div>
+                <div class="tabla-item">RUSC. Universities and Knowledge Society Journal</div>
+                
+            </div>
+            <div class="columna">
+                <div class="tabla-item">Idioma</div>
+                <div class="tabla-item">Catalàn</div>
+                <div class="tabla-item">Inglés</div>
+                <div class="tabla-item">Inglés</div>
+                <div class="tabla-item">Inglés</div>
+                <div class="tabla-item">Inglés</div>
+                <div class="tabla-item">Inglés</div>
+               
+            </div>
+            <div class="columna">
+                <div class="tabla-item">URI</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85305</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85285</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85265</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85246</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85245</div>
+                <div class="tabla-item">http://hdl.handle.net/10609/85225</div>
+               
+            </div>
+           
+            <div class="fila-ultima">
+                <div class="tabla-item">Según la información consultada el 18/10/2018:
+                    http://openaccess.uoc.edu/webapps/o2/?locale=ca</div>
+                    
+                    
+                    
+                    
+                    
+                    
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                   
+                    
+                    <div class="contenedor-grid">
+            <div class="fila">
+               
+                <div class="item">Título</div>
+                <div class="item">Autor</div>
+                <div class="item">Publicación</div>
+                <div class="item">Editorial</div>
+                <div class="item">Idioma</div>
+                <div class="item">URI</div>
+            </div>
+            <div class="fila">
+                <div class="item">Directrius per a la selecció i ús dels recursos d'aprenentatge de les assignatures</div>
+                <div class="item">Universitat Oberta de Catalunya. Biblioteca</div>
+                <div class="item">octubre de 2018</div>
+                <div class="item">Universitat Oberta de Catalunya (UOC)</div>
+                <div class="item">Catalàn</div>
+                <div class="item">http://hdl.handle.net/10609/85305</div>
+               
+            </div>
+            <div class="fila">
+                <div class="item">An overview of use, knowledge and perceptionsof the Internet in Spain</div>
+                <div class="item">Aranda Juárez, Daniel; Sánchez-Navarro, Jordi; Mohammadi, Leila</div>
+                <div class="item">18 de junio de 2018</div>
+                <div class="item">Data in Brief</div>
+                <div class="item">Inglés</div>
+                <div class="item">http://hdl.handle.net/10609/85285</div>
+            </div>
+          
+            <div class="fila">
+                <div class="item">Editorial: Applications of Risk Analysis & Analytics in Engineering, Economics, and Healthcare</div>
+                <div class="item">Juan, Angel A.; de Armas, Jesica; Calvet, Laura; Serra, Isabel</div>
+                <div class="item">noviembre de 2017</div>
+                <div class="item">Int. J. Data Analysis Techniques and Strategies</div>
+                <div class="item">Inglés</div>
+                <div class="item">http://hdl.handle.net/10609/85265</div>
+               
+               
+            </div>
+            <div class="fila">
+                <div class="item">Review "Liquid power: contested hydro-modernities in twentieth-century Spain by Erik Swyngedouw"</div>
+                <div class="item">March Corbella, Hug</div>
+                <div class="item">enero de 2016</div>
+                <div class="item">Area. Royal Geographical Society</div>
+                <div class="item">Inglés</div>
+                <div class="item">http://hdl.handle.net/10609/85246</div>
+                
+               
+            </div>
+            <div class="fila">
+                <div class="item">Book Review: Joost Beuving and Geert de Vries, Doing Qualitative Research: The Craft of Naturalistic Inquiry</div>
+                <div class="item">Greti-Iulia, Ivana</div>
+                <div class="item">25 de noviembre de 2016</div>
+                <div class="item">Qualitative Research</div>
+                <div class="item">Inglés</div>
+                <div class="item">http://hdl.handle.net/10609/85245</div>
+            </div>
+            <div class="fila">
+                <div class="item">Educational Data Mining and Learning Analytics: differences, similarities, and time evolution</div>
+                <div class="item">Calvet Liñán, Laura; Juan Pérez, Angel A.</div>
+                <div class="item">1 de junio de 2015</div>
+                <div class="item">RUSC. Universities and Knowledge Society Journal</div>
+                <div class="item">Inglés</div>
+                <div class="item">http://hdl.handle.net/10609/85225</div>
+            </div>
+           
+            <div class="fila-ultima">
+                <div class="tabla-item">Según la información consultada el 18/10/2018:
+                    http://openaccess.uoc.edu/webapps/o2/?locale=ca</div>
+            </div>
+
+        </div>

@@ -1,0 +1,36 @@
+
+.padre{
+    background-color: gray;
+    
+}
+
+.fila{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fila-osc{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+
+
+.item-1{
+    /* background-color: red; */
+    display: flex;
+    height: 150px;
+}
+.item-2{
+    height: 150px;
+/* background-color: yellow; */
+}
+.item-3{
+    height: 150px;
+/* background-color: green; */
+}
+.item-4{
+    height: 150px;
+/* background-color: blue  ; */
+}

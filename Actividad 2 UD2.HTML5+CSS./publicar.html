@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Publicar</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="img/Logo_blau_uoc.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="item-menu"><a href="index.html">Inicio</a></li>
+                <li class="item-menu"><a href="http://openaccess.uoc.edu/webapps/o2/?locale=es">Buscar</a></li>
+                <li class="item-menu"><a href="publicar.html">Publicar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="publicar">
+            <h1 class="titulo-envios">O2: depositar un documento</h1>
+            <div class="contenedor-datos-publicacion">
+                <h3>Datos de la publicación</h3>
+                <div class="publicar-grid">
+                    <div>
+                        <label>Comunidad donde debe publicarse *
+                            <br>
+                            <select>
+                                <option>Docencia</option>
+                                <option>Institucional</option>
+                                <option>Investigación</option>
+                                <option>Datos</option>
+                            </select>
+                        </label>
+
+                        <label>Nombre del autor *
+                            <br>
+                            <input type="text" class="publicacion-input">
+                        </label>
+
+                        <label>Primer apellido del autor *
+                            <br>
+                            <input type="text" class="publiacion-input">
+                        </label>
+
+                        <label>Segundo apellido del autor *
+                            <br>
+                            <input type="text" class="publicacion-input">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Título del documento *
+                            <br>
+                            <input type="text" class="publicacion-input">
+                        </label>
+
+                        <label>Fecha de creación del documento *
+                            <br>
+                            <input type="text" class="publicacion-input">
+                        </label>
+
+                        <label>Editorial
+                            <br>
+                            <input type="text" class="publicacion-input">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-tipo-documento">
+                <!-- <h1>Universitat Oberta de Catalunya</h1> -->
+                <div>
+                    <label>Tipo de documento *
+                        <select>
+                            <option>Artículo</option>
+                            <option>Trabajo fin de carrera</option>
+                            <option>Trabajo fin de máster</option>
+                            <option>Tesis doctoral</option>
+                            <option>Libro</option>
+                            <option>Capítulo o parte de libro</option>
+                            <option>Revisión</option>
+                            <option>Conferencia</option>
+                            <option>Clase</option>
+                            <option>Informe de investigación</option>
+                            <option>Informe interno</option>
+                            <option>Hoja informativa</option>
+                            <option>Documental</option>
+                        </select>
+                    </label>
+                    <label>Idioma del documento *
+                        <select>
+                            <option>Castellano</option>
+                            <option>Catalán</option>
+                            <option>Inglés</option>
+                            <option>Alemán</option>
+                            <option>Francés</option>
+                            <option>Italiano</option>
+                            <option>Japonés</option>
+                            <option>Chino</option>
+                            <option>Otro</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label>Breve resumen del documento *<textarea></textarea></label>
+                </div>
+                <div>
+                    <label>Acepta la licencia de publicacion del documento*
+                    <select>
+                        <option>Reconocimiento-NoComercial-SinObraDerivada 3.0</option>
+                        <option>Reconocimiento -NoComercial-CompartirIgual 3.0</option>
+                        <option>Reconocimiento -SinObraDerivada 3.0</option>
+                        <option>Reconocimiento -CompartirIgual 3.0</option>
+                        <option>Reconocimiento 3.0</option>
+                    </select>
+                </label>
+                    <button>Enviar documento *</button>
+                </div>
+            </div>
+            <div class="contenedor-datos-remitente">
+                <h3>Datos de contacto del remitente</h3>
+                <label>Nombres y apellidos
+                    <input type="text">
+                </label>
+                <label>Por fvor, seleccione una de las dos opciones siguientes:
+                    <select>
+
+                        <option>Hombre</option>
+                        <option>Mujer</option>
+                    </select>
+                </label>
+                <label>Tipo de documento de identidad
+                    <select>
+                        <option>NIF</option>
+                        <option>NIE</option>
+                        <option>PASS</option>
+                    </select>
+                </label>
+                <label>Número de documento
+                    <input type="text">
+                </label>
+                <label>Correo electrónico *
+                    <input type="text">
+                </label>
+                <label>Teléfono (opcional)
+                    <input type="text">
+                </label>
+                <label>Idioma para la respuesta *
+                    <select>
+                        <option>Castellano</option>
+                        <option>Catalán</option>
+                    </select>
+                </label>
+            </div>
+                
+                <div class="contenedor-politica-privacidad">
+                    <label>He leído y acepto la política de privacidad y el aviso legal *<input type="checkbox"></label>
+                        <label>
+                            Dese ser informado sobre las nuevas incorporaciones al repositorio<input type="checkbox"></label>
+                            <button>Enviar</button>
+                        </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Actividad realizada por Juan Miguel Valle Fernández, para la asignatura Diseño de aplicaciones web HTML y CSS
+        </p>
+        <p>Primer semestre del curso 2024-2025</p>
+    </footer>
+</body>
+
+</html>
