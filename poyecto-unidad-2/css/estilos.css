@@ -5,15 +5,16 @@ body {
     color: #FFFF;
 }
 main{
-    
+    margin: 0 1vw;
 }
+
 .logo{
     width: 200px;
     padding-left: 20px;
 }
 
 .landing{
-    background-image: url("/img/Designer\(3\).jpeg");
+    background-image: url("../img/Designer\(3\).jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,6 +58,16 @@ footer {
     justify-items: space-around;
     align-items: center;
 }
+.footer-enlaces p{
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.footer-enlaces p:hover{
+    background-color: rgba(0, 0, 0, 0.20);
+
+}
 
 .footer-enlaces a {
     color: #FFFF;
@@ -65,9 +76,37 @@ footer {
 }
 
 .app {
-    display: flex;
-    column-gap: 5vw;
+    display: inline-flex;
+    column-gap: 50px;
 }
+.app div{
+    background-color: #DDDDDD;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+.apple{
+    background: url('../img/image-3.png') no-repeat left center;
+    background-size: 35px 35px;
+    padding-left: 40px;
+    color: #000000;
+    font-size: 10px;
+    line-height: 15px;
+}
+.android{
+    background: url('../img/image-4.png') no-repeat left center;
+    background-size: 35px 35px;
+    padding-left: 40px;
+    color: #000000;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.app span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
 
 nav {
     display: grid;
@@ -79,11 +118,16 @@ nav div{
     width: 100%;
     text-align: center;
     border-radius: 10px;
+    transition: 0.5s;
 
 }
 nav div:hover{
     background-color: rgba(0, 0, 0, 0.20);
     
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .contenedor-header {
@@ -97,7 +141,9 @@ nav div:hover{
 
 .input-buscar {
     width: 15vw;
+    min-width: 50px;
     height: 6vh;
+    min-height: 30px;
     border-radius: 10px;
     border: none;
     
@@ -111,7 +157,9 @@ nav div:hover{
 
 .input-donde {
     width: 15vw;
+    min-width: 50px;
     height: 6vh;
+    min-height: 30px;
     border-radius: 10px;
     border: none;
     
@@ -125,7 +173,9 @@ nav div:hover{
 
 .input-cuando {
     width: 10vw;
+    min-width: 50px;
     height: 6vh;
+    min-height: 30px;
     border-radius: 10px;
     border: none;
 
@@ -139,10 +189,10 @@ nav div:hover{
 .grid-peluqueria{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
     justify-items: center;
     align-items: center;
     margin: 50px;
+    column-gap: 20px;
 }
 .columnas{
     display: flex;
@@ -154,6 +204,10 @@ nav div:hover{
     padding:0.5% 15px;
     border-radius: 10px;
     width: 20vw;
+    transition: 0.5s;
+}
+.cerca-de-ti:hover{
+    background-color: rgba(0, 0, 0, 0.40);
 }
 
 .cerca-de-ti p{
@@ -168,6 +222,7 @@ nav div:hover{
 }
 .video-peluqueria{
     border-radius: 10px;
+    min-width: 300px;
     
 }
 .video-peluqueria video{
@@ -175,6 +230,46 @@ nav div:hover{
     height: 40vw;
     min-height: 15vw;
     min-width: 15vw;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    
 
 
+}
+
+.redes{
+    position: fixed;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.instagram{
+    
+    background: url('../img/image.png'); 
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+
+}
+.x{
+    background: url('../img/image-1.png') no-repeat right center;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.tiktok{
+    background: url('../img/image-2.png') no-repeat right center;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
 }
