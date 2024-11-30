@@ -4,37 +4,44 @@ body {
     font-family: sans-serif;
     color: #FFFF;
 }
-main{
-    margin: 0 1vw;
-}
 
-.logo{
+
+.logo {
     width: 200px;
     padding-left: 20px;
+    transition: 0.5s;
 }
 
-.landing{
+.logo:hover {
+    animation: rotacion;
+    box-shadow: 4px 6px #00000081;
+}
+
+.landing {
     background-image: url("../img/Designer\(3\).jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.login{
+
+.login {
     display: inline-flex;
     column-gap: 10px;
     align-items: center;
 }
-.login img{
+
+.login img {
     width: 40px;
     height: 40px;
 }
 
-.lenguaje{
+.lenguaje {
     display: flex;
     align-items: center;
 }
-.lenguaje img{
+
+.lenguaje img {
     width: 40px;
     height: 40px;
 
@@ -58,13 +65,14 @@ footer {
     justify-items: space-around;
     align-items: center;
 }
-.footer-enlaces p{
+
+.footer-enlaces p {
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.5s;
 }
 
-.footer-enlaces p:hover{
+.footer-enlaces p:hover {
     background-color: rgba(0, 0, 0, 0.20);
 
 }
@@ -79,13 +87,15 @@ footer {
     display: inline-flex;
     column-gap: 50px;
 }
-.app div{
+
+.app div {
     background-color: #DDDDDD;
     padding: 5px 20px;
     border-radius: 10px;
 
 }
-.apple{
+
+.apple {
     background: url('../img/image-3.png') no-repeat left center;
     background-size: 35px 35px;
     padding-left: 40px;
@@ -93,7 +103,8 @@ footer {
     font-size: 10px;
     line-height: 15px;
 }
-.android{
+
+.android {
     background: url('../img/image-4.png') no-repeat left center;
     background-size: 35px 35px;
     padding-left: 40px;
@@ -102,7 +113,7 @@ footer {
     line-height: 15px;
 }
 
-.app span{
+.app span {
     font-size: 14px;
     font-weight: bold;
 }
@@ -112,20 +123,20 @@ nav {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     justify-items: center;
-    
+    box-shadow: 0 2px #00000021;
 }
-nav div{
+
+nav div {
     width: 100%;
     text-align: center;
-    border-radius: 10px;
     transition: 0.5s;
+}
 
-}
-nav div:hover{
+nav div:hover {
     background-color: rgba(0, 0, 0, 0.20);
-    
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -146,13 +157,13 @@ nav a{
     min-height: 30px;
     border-radius: 10px;
     border: none;
-    
+
     background: url('../img/image-5.png') no-repeat left center;
     background-size: 20px 20px;
     background-color: white;
     border: 1px solid #ccc;
     padding-left: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .input-donde {
@@ -162,13 +173,13 @@ nav a{
     min-height: 30px;
     border-radius: 10px;
     border: none;
-    
+
     background: url('../img/image-6.png') no-repeat left center;
     background-size: 20px 20px;
-    background-color: white; 
-    border: 1px solid #ccc;  
+    background-color: white;
+    border: 1px solid #ccc;
     padding-left: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .input-cuando {
@@ -181,51 +192,63 @@ nav a{
 
     background: url('../img/image-7.png') no-repeat left center;
     background-size: 20px 20px;
-    background-color: white; 
+    background-color: white;
     padding-left: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-.grid-peluqueria{
+.grid-peluqueria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    margin: 50px;
+    margin: 62px;
     column-gap: 20px;
 }
-.columnas{
+
+.columnas {
     display: flex;
     column-gap: 20px;
     row-gap: 10px;
 }
-.cerca-de-ti{
+
+.cerca-de-ti {
     background-color: rgba(0, 0, 0, 0.15);
-    padding:0.5% 15px;
+    padding: 0.5% 15px;
     border-radius: 10px;
     width: 20vw;
     transition: 0.5s;
 }
-.cerca-de-ti:hover{
+
+.cerca-de-ti:hover {
     background-color: rgba(0, 0, 0, 0.40);
 }
 
-.cerca-de-ti p{
+.cerca-de-ti p {
     background: url('../img/Arrow\ 1.png') no-repeat right center;
     background-size: 40px 10px;
     padding-left: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-.grid-cerca{
+
+.grid-cerca {
     display: grid;
     row-gap: 10px;
 }
-.video-peluqueria{
+
+.grid-cerca a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.video-peluqueria {
     border-radius: 10px;
     min-width: 300px;
-    
+
 }
-.video-peluqueria video{
+
+.video-peluqueria video {
+    box-shadow: 4px 6px #0000005d;
     width: 40vw;
     height: 40vw;
     min-height: 15vw;
@@ -233,14 +256,14 @@ nav a{
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    
+
 
 
 }
 
-.redes{
+.redes {
     position: fixed;
-    left: 0; 
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 60px;
@@ -253,23 +276,143 @@ nav a{
     justify-content: space-around;
 }
 
-.instagram{
-    
-    background: url('../img/image.png'); 
+.instagram {
+
+    background: url('../img/image.png');
     width: 40px;
     height: 40px;
     background-size: cover;
 
 }
-.x{
+
+.x {
     background: url('../img/image-1.png') no-repeat right center;
     width: 40px;
     height: 40px;
     background-size: cover;
 }
-.tiktok{
+
+.tiktok {
     background: url('../img/image-2.png') no-repeat right center;
     width: 40px;
     height: 40px;
     background-size: cover;
+}
+
+.img-quienes {
+    background: url('../img/Coloration\ chez\ le\ coiffeur\ _\ 5\ bonnes\ raisons\ d\'aller\ en\ salon.jpeg');
+    background-size: cover;
+    width: 30vw;
+    height: 50vw;
+    border-radius: 10px;
+}
+
+.grid-quienes h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.grid-quienes p {
+    font-size: 20px;
+
+}
+
+.grid-quienes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+    margin: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contacto {
+    margin: 50px;
+    display: grid;
+    justify-items: center;
+}
+
+.contacto h2 {
+    font-size: 50px;
+}
+
+.contacto p {
+    font-size: 20px;
+}
+
+.div-email {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.correo i {
+    margin-right: 30px;
+
+
+}
+.flex-peluqueria{
+    display: flex;
+    margin: 70px;
+    justify-content: space-evenly;
+}
+.grid-descripcion h3  {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+.grid-descripcion p{
+    margin: 0px;
+    padding: 0;
+}
+
+.precio p{
+    margin: 2px;
+    padding: 0;
+}
+.peluqueria-img img{
+    width: 15vw;
+    border-radius: 20px;
+}
+.peluqueria-img{
+    
+}
+.container-servicio{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    padding-right: 10px;
+    /* column-gap: 300px; */
+    box-shadow: 2px 2px #00000021;
+}
+.container-precio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.grid-descripcion{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+    width: 100%;
+}
+.boton-reservar{
+    background-color: #818181;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: auto 20px;
+    transition: 0.5s;
+}
+.boton-reservar:hover{
+    background-color: #000000;
 }
