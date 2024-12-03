@@ -332,9 +332,9 @@ nav a {
 }
 
 .contacto {
-    margin: 50px;
     display: grid;
     justify-items: center;
+    margin: 50px;
 }
 
 .contacto h2 {
@@ -399,6 +399,10 @@ nav a {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+.duracion{
+    color: #818181;
+    font-size: 14px;
 }
 .grid-descripcion{
     display: grid;
