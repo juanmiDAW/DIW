@@ -6,6 +6,7 @@ body {
 }
 
 
+
 .logo {
     width: 200px;
     padding-left: 20px;
@@ -391,7 +392,6 @@ nav a {
     width: 100%;
     border-radius: 10px;
     padding-right: 10px;
-    /* column-gap: 300px; */
     box-shadow: 2px 2px #00000021;
 }
 .container-precio{
