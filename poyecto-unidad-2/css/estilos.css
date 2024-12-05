@@ -3,8 +3,17 @@ body {
     background: linear-gradient(to right, #992A79, #91FBFD);
     font-family: sans-serif;
     color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
 }
-
+html, body{
+    height: 100%;
+    margin: 0;
+}
+main{
+    flex: 1;
+}
 
 
 .logo {
@@ -14,7 +23,6 @@ body {
 }
 
 .logo:hover {
-    animation: rotacion;
     box-shadow: 4px 6px #00000081;
 }
 
