@@ -450,6 +450,11 @@ nav a {
 .contacto p {
     font-size: 20px;
 }
+.contacto iframe{
+    width: 48vw;
+    height: 25vw;
+    border-radius: 20px;
+}
 
 .div-email {
     background-color: rgba(0, 0, 0, 0.2);
@@ -487,7 +492,9 @@ nav a {
 }
 .peluqueria-img img{
     width: 15vw;
+    height: 10vw;
     border-radius: 20px;
+    object-fit: cover;
 }
 .peluqueria-img{
     
@@ -525,4 +532,24 @@ nav a {
 }
 .boton-reservar:hover{
     background-color: #000000;
+}
+.contenedor-iframe{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-iframe iframe{
+    width: 40vw;
+    height: 20vw;
+    border-radius: 10px;
+}
+.licencia {
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 10px;
+    background-size: 35px 35px;
+    padding: 0;
+    color: #000000;
+    height: 5px;
 }
