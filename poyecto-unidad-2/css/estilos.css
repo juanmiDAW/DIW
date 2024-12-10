@@ -144,7 +144,7 @@ footer {
     margin: 0;
     font-family: sans-serif;
     color: #FFFF;
-    padding: 1vw 10vw;
+    padding: 1vw 1vw;
 
 }
 
@@ -196,6 +196,7 @@ footer {
 .android {
     background: url('../img/image-4.png') no-repeat left center;
     background-size: 35px 35px;
+    width: 85px;
     padding-left: 40px;
     color: #000000;
     font-size: 10px;
@@ -542,14 +543,9 @@ nav a {
     height: 20vw;
     border-radius: 10px;
 }
-.licencia {
-    width: 8vw;
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    font-size: 10px;
-    background-size: 35px 35px;
-    padding: 0;
-    color: #000000;
-    height: 5px;
+.licencia{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
 }
