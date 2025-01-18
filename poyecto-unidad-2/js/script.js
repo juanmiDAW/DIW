@@ -1,44 +1,61 @@
-'use strict'
+const carousel = document.getElementById('carousel');
+    const slides = carousel.querySelector('.carousel-slides');
+    const indicators = carousel.querySelectorAll('.carousel-indicator');
+    const prevButton = carousel.querySelector('.prev');
+    const nextButton = carousel.querySelector('.next');
+    let currentIndex = 0;
+    let autoSlideInterval;
 
-const grande    = document.querySelector('.grande')
-const punto     = document.querySelectorAll('.punto')
+    function updateCarousel() {
+      // Actualizar la posición del carrusel
+      slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+      // Actualizar los indicadores activos
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentIndex);
+      });
+    }
 
-// Cuando CLICK en punto
-    // Saber la posición de ese punto
-    // Aplicar un transform translateX al grande
-    // QUITAR la clase activo de TODOS puntos
-    // AÑADIR la clase activo al punto que hemos hecho CLICK
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % indicators.length;
+      updateCarousel();
+    }
 
-// Recorrer TODOS los punto
-punto.forEach( ( cadaPunto , i )=> {
-    // Asignamos un CLICK a cadaPunto
-    punto[i].addEventListener('click',()=>{
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + indicators.length) % indicators.length;
+      updateCarousel();
+    }
 
-        // Guardar la posición de ese PUNTO
-        let posicion  = i
-        // Calculando el espacio que debe DESPLAZARSE el GRANDE
-        let operacion = posicion * -50
+    function startAutoSlide() {
+      autoSlideInterval = setInterval(nextSlide, 3000);
+    }
 
-        // MOVEMOS el grand
-        grande.style.transform = `translateX(${ operacion }%)`
+    function stopAutoSlide() {
+      clearInterval(autoSlideInterval);
+    }
 
-        // Recorremos TODOS los punto
-        punto.forEach( ( cadaPunto , i )=>{
-            // Quitamos la clase ACTIVO a TODOS los punto
-            punto[i].classList.remove('activo')
-        })
-        // Añadir la clase activo en el punto que hemos hecho CLICK
-        punto[i].classList.add('activo')
+    // Mover al siguiente slide manualmente
+    nextButton.addEventListener('click', () => {
+      stopAutoSlide();
+      nextSlide();
+      startAutoSlide();
+    });
 
-    })
-})
+    // Mover al slide anterior manualmente
+    prevButton.addEventListener('click', () => {
+      stopAutoSlide();
+      prevSlide();
+      startAutoSlide();
+    });
 
+    // Ir al slide específico al hacer clic en un indicador
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        stopAutoSlide();
+        currentIndex = index;
+        updateCarousel();
+        startAutoSlide();
+      });
+    });
 
-
-
-
-
-
-
-
-( condicion ) ? 'hola' : 'adiós'
+    // Iniciar el auto-slide al cargar
+    startAutoSlide();

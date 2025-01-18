@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/script.js" defer></script>
     <title>Sublime</title>
 </head>
 
@@ -73,7 +74,7 @@
         <div class="contacto">
             <h2>Contáctanos</h2>
             <p>¿Tienes alguna pregunta o problema? Ponte en contacto con nuestro equipo de atencion al cliente.</p>
-            
+
             <div class="div-email">
                 <p><strong>Contactar con el servicio de atencion al cliente.</strong></p>
                 <p class="correo"><i class="fa-regular fa-envelope"></i>help@sublime.com</p>
@@ -83,22 +84,36 @@
                 <p class="correo"><i class="fa-regular fa-envelope"></i>marketing@sublime.com</p>
                 <p class="correo"><i class="fa-solid fa-phone"></i>999 999 999</p>
             </div>
-            <div class="contenedor">
-                <ul class="ul">
-                    <li class="li activo">Boton 1</li>
-                    <li class="li">Boton 2</li>
-                    <li class="li">Boton 3</li>
-                </ul>
-        
-                <div class="subcontenedor">
-                    <div class="bloque activo">Soy el bloque 1</div>
-                    <div class="bloque">Suscríbete</div>
-                    <div class="bloque">Sígueme en TikTok</div>
+
+            <div class="carousel" id="carousel">
+                <div class="carousel-slides">
+                    <div class="carousel-slide">
+                        <img src="img/pro4-1.jpg" alt="Slide 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/pro4-2.jpg" alt="Slide 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/pro4-3.jpg" alt="Slide 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/pro4-4.jpg" alt="Slide 4">
+                    </div>
                 </div>
+                <div class="carousel-indicators">
+                    <div class="carousel-indicator active" data-slide="0"></div>
+                    <div class="carousel-indicator" data-slide="1"></div>
+                    <div class="carousel-indicator" data-slide="2"></div>
+                    <div class="carousel-indicator" data-slide="3"></div>
+                </div>
+                <button class="carousel-control prev">‹</button>
+                <button class="carousel-control next">›</button>
             </div>
+
+
         </div>
-        
-        
+
+
     </main>
 </body>
 <footer>
