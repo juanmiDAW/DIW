@@ -331,25 +331,7 @@ nav a {
     color: #FFFFFF;
 }
 
-.video-peluqueria {
-    border-radius: 10px;
-    min-width: 300px;
 
-}
-
-.video-peluqueria video {
-    box-shadow: 4px 6px #0000005d;
-    width: 40vw;
-    height: 40vw;
-    min-height: 15vw;
-    min-width: 15vw;
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-
-
-
-}
 
 .redes {
     position: fixed;
@@ -367,18 +349,18 @@ nav a {
 }
 
 .instagram {
-
+    
     background: url('../img/image.png');
     width: 40px;
     height: 40px;
     background-size: cover;
     border-radius: 10px;
     transition: 0.5s;
-
+    
 }
 .instagram:hover{
     background-color: rgba(255, 255, 255, 0.479);
-
+    
 }
 
 .x {
@@ -391,7 +373,7 @@ nav a {
 }
 .x:hover{
     background-color: rgba(255, 255, 255, 0.479);
-
+    
 }
 
 .tiktok {
@@ -404,7 +386,7 @@ nav a {
 }
 .tiktok:hover{
     background-color: rgba(255, 255, 255, 0.479);
-
+    
 }
 
 .img-quienes {
@@ -425,7 +407,7 @@ nav a {
 
 .grid-quienes p {
     font-size: 20px;
-
+    
 }
 
 .grid-quienes {
@@ -469,8 +451,8 @@ nav a {
 
 .correo i {
     margin-right: 30px;
-
-
+    
+    
 }
 .flex-peluqueria{
     display: flex;
@@ -547,64 +529,64 @@ nav a {
     display: grid;
     justify-items: center;
     align-items: center;
-
+    
 }
 
- /* Contenedor principal */
- .carousel {
+/* Contenedor principal */
+.carousel {
     position: relative;
     width: 60%;
     height: 90%;
     overflow: hidden;
     border-radius: 10px;
-  }
+}
 
-  /* Wrapper de diapositivas */
-  .carousel-slides {
+/* Wrapper de diapositivas */
+.carousel-slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
     height: 300px;
-  }
+}
 
-  .carousel-slide {
+.carousel-slide {
     min-width: 100%;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .carousel-slide img {
+.carousel-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  /* Indicadores */
-  .carousel-indicators {
+/* Indicadores */
+.carousel-indicators {
     position: absolute;
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     gap: 8px;
-  }
+}
 
-  .carousel-indicator {
+.carousel-indicator {
     width: 10px;
     height: 10px;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 50%;
     cursor: pointer;
     transition: background 0.3s ease;
-  }
+}
 
-  .carousel-indicator.active {
+.carousel-indicator.active {
     background: white;
-  }
+}
 
-  /* Controles de navegación */
-  .carousel-control {
+/* Controles de navegación */
+.carousel-control {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -614,16 +596,61 @@ nav a {
     padding: 10px;
     cursor: pointer;
     z-index: 10;
-  }
+}
 
-  .carousel-control.prev {
+.carousel-control.prev {
     left: 10px;
-  }
+}
 
-  .carousel-control.next {
+.carousel-control.next {
     right: 10px;
-  }
+}
 
-  .carousel-control:hover {
+.carousel-control:hover {
     background: rgba(0, 0, 0, 0.8);
-  }
+}
+
+.ul-tabs{
+    display: grid;
+    width: 60%;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;  }
+    
+    .tabs-li{
+        list-style-type: none;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .tabs-li.activo{
+        background-color: #00000086;
+    }
+    
+    .subcontenedor{
+        position: relative;
+    }
+    
+    .subcontenedor .img{
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        opacity: 0;
+        border-radius: 10px;
+    }
+    .subcontenedor .img.activo{
+        opacity: 1;
+    }
+    .tabs  {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        min-width: 300px;
+        border-radius: 10px;
+        box-shadow: 4px 6px #0000005d;
+        width: 40vw;
+        height: 100%;
+        min-height: 15vw;
+        min-width: 15vw;
+        border-radius: 20px;
+    }
