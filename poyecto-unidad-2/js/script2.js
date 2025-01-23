@@ -13,3 +13,21 @@ li.forEach((cadaLi, i) => {
         bloque[i].classList.add('activo');
     });
 });
+
+const bloque1 = document.querySelectorAll('.bloque');
+const h2 = document.querySelectorAll('.h2');
+
+// Recorrer todos los h2
+h2.forEach((cadaH2, i) => {
+    // Asignar un evento de click a cada h2
+    cadaH2.addEventListener('click', () => {
+        // Eliminar la clase 'activo' de todos los bloques
+        bloque1.forEach(cadaBloque => {
+            cadaBloque.classList.remove('activo');
+        });
+
+        // Añadir la clase 'activo' al bloque correspondiente
+        bloque1[i-1].classList.add('activo');
+    });
+});
+
