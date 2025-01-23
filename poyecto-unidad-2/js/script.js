@@ -59,9 +59,4 @@ const carousel = document.getElementById('carousel');
 
     // Iniciar el auto-slide al cargar
     startAutoSlide();
-
-    var selectorLi = document.querySelectorAll('li[class="tabs-li"');
     
-    selectorLi.addEventListener('click', function(){
-        
-    })

@@ -621,6 +621,7 @@ nav a {
         list-style-type: none;
         padding: 8px;
         border-radius: 10px;
+        transition: linear 0.3s;
     }
     .tabs-li.activo{
         background-color: #00000086;
@@ -628,18 +629,23 @@ nav a {
     
     .subcontenedor{
         position: relative;
+        height: 100%;
     }
     
-    .subcontenedor .img{
+    .tabs-cont{
         position: absolute;
-        top: 0;
+        top: 35px;
         left: 25%;
         width: 50%;
+        height: 70%;
         opacity: 0;
         border-radius: 10px;
+
     }
-    .subcontenedor .img.activo{
+    .subcontenedor .tabs-cont.activo{
         opacity: 1;
+        transition: linear 0.3s;
+
     }
     .tabs  {
         display: flex;
@@ -653,4 +659,5 @@ nav a {
         min-height: 15vw;
         min-width: 15vw;
         border-radius: 20px;
+        background-color: #0000001a;
     }
