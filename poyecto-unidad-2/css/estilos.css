@@ -7,11 +7,14 @@ body {
     flex-direction: column;
     min-width: 100vh;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     margin: 0;
 }
-main{
+
+main {
     flex: 1;
 }
 
@@ -34,60 +37,69 @@ main{
     height: 100vh;
     display: flow-root;
 }
-.contenedor-index{
-  margin: 70px;
-  display: flex;
-  column-gap: 30px;
+
+.contenedor-index {
+    margin: 70px;
+    display: flex;
+    column-gap: 30px;
 }
 
-.index-clientes{
+.index-clientes {
     background-color: rgba(0, 0, 0, 0.514);
-    padding:  20px 10px;
+    padding: 20px 10px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     width: 50%;
 }
-.index-clientes h2{
+
+.index-clientes h2 {
     text-align: center;
 }
-.index-clientes p{
+
+.index-clientes p {
     text-align: center;
 }
-.contenedor-telefono{
+
+.contenedor-telefono {
     display: flex;
     justify-content: center;
     align-content: center;
     column-gap: 20px;
 }
-.contenedor-telefono input{
+
+.contenedor-telefono input {
     border-radius: 10px;
 }
-.boton-descargar{
+
+.boton-descargar {
     background-color: #992A79;
     padding: 8px;
     border-radius: 10px;
     font-size: 14px;
     transition: 0.5s;
 }
-.boton-descargar:hover{
+
+.boton-descargar:hover {
     background-color: #ff00b7;
 }
-.img-clientes{
+
+.img-clientes {
     margin: 30px;
     display: flex;
     justify-content: center;
     justify-items: center;
 }
-.img-clientes img{
+
+.img-clientes img {
     width: 80%;
-    
+
 }
 
-.index-negocios{
+.index-negocios {
     background-color: rgba(0, 0, 0, 0.514);
-    padding:  20px 10px;
+    padding: 20px 10px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -96,21 +108,24 @@ main{
     align-items: center;
     width: 50%;
 }
-.index-negocios h2{
-    text-align: center;
-}
-.index-negocios p{
+
+.index-negocios h2 {
     text-align: center;
 }
 
-.boton-negocios{
+.index-negocios p {
+    text-align: center;
+}
+
+.boton-negocios {
     background-color: #00abad;
     padding: 8px;
     border-radius: 10px;
     font-size: 14px;
     transition: 0.5s;
 }
-.boton-negocios:hover{
+
+.boton-negocios:hover {
     background-color: #02dee2;
 }
 
@@ -349,18 +364,19 @@ nav a {
 }
 
 .instagram {
-    
+
     background: url('../img/image.png');
     width: 40px;
     height: 40px;
     background-size: cover;
     border-radius: 10px;
     transition: 0.5s;
-    
+
 }
-.instagram:hover{
+
+.instagram:hover {
     background-color: rgba(255, 255, 255, 0.479);
-    
+
 }
 
 .x {
@@ -371,9 +387,10 @@ nav a {
     border-radius: 10px;
     transition: 0.5s;
 }
-.x:hover{
+
+.x:hover {
     background-color: rgba(255, 255, 255, 0.479);
-    
+
 }
 
 .tiktok {
@@ -384,9 +401,10 @@ nav a {
     border-radius: 10px;
     transition: 0.5s;
 }
-.tiktok:hover{
+
+.tiktok:hover {
     background-color: rgba(255, 255, 255, 0.479);
-    
+
 }
 
 .img-quienes {
@@ -397,7 +415,7 @@ nav a {
     border-radius: 10px;
 }
 
-.grid-quienes h2 {
+.grid-quienes-titulo {
     text-align: center;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -405,9 +423,9 @@ nav a {
     border-radius: 20px;
 }
 
-.grid-quienes p {
+.grid-quienes .p {
     font-size: 20px;
-    
+
 }
 
 .grid-quienes {
@@ -433,7 +451,8 @@ nav a {
 .contacto p {
     font-size: 20px;
 }
-.contacto iframe{
+
+.contacto iframe {
     width: 48vw;
     height: 25vw;
     border-radius: 20px;
@@ -451,38 +470,42 @@ nav a {
 
 .correo i {
     margin-right: 30px;
-    
-    
+
+
 }
-.flex-peluqueria{
+
+.flex-peluqueria {
     display: flex;
     margin: 70px;
     justify-content: space-evenly;
 }
-.grid-descripcion h3  {
+
+.grid-descripcion h3 {
     box-sizing: border-box;
     margin: 0px;
     padding: 0;
 }
-.grid-descripcion p{
+
+.grid-descripcion p {
     margin: 0px;
     padding: 0;
 }
 
-.precio p{
+.precio p {
     margin: 2px;
     padding: 0;
 }
-.peluqueria-img img{
+
+.peluqueria-img img {
     width: 15vw;
     height: 10vw;
     border-radius: 20px;
     object-fit: cover;
 }
-.peluqueria-img{
-    
-}
-.container-servicio{
+
+.peluqueria-img {}
+
+.container-servicio {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -490,46 +513,53 @@ nav a {
     padding-right: 10px;
     box-shadow: 2px 2px #00000021;
 }
-.container-precio{
+
+.container-precio {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
-.duracion{
+
+.duracion {
     color: #818181;
     font-size: 14px;
 }
-.grid-descripcion{
+
+.grid-descripcion {
     display: grid;
     grid-template-columns: 1fr;
     margin: 5px;
     width: 100%;
 }
-.boton-reservar{
+
+.boton-reservar {
     background-color: #818181;
     padding: 5px 10px;
     border-radius: 10px;
     margin: auto 20px;
     transition: 0.5s;
 }
-.boton-reservar:hover{
+
+.boton-reservar:hover {
     background-color: #000000;
 }
-.contenedor-iframe{
+
+/* .contenedor-iframe{
     display: flex;
     justify-content: center;
-}
-.contenedor-iframe iframe{
+} */
+.contenedor-iframe iframe {
     width: 40vw;
     height: 20vw;
     border-radius: 10px;
 }
-.licencia{
+
+.licencia {
     display: grid;
     justify-items: center;
     align-items: center;
-    
+
 }
 
 /* Contenedor principal */
@@ -610,91 +640,111 @@ nav a {
     background: rgba(0, 0, 0, 0.8);
 }
 
-.ul-tabs{
+.ul-tabs {
     display: grid;
     width: 60%;
     justify-content: space-around;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;  }
-    
-    .tabs-li{
-        list-style-type: none;
-        padding: 8px;
-        border-radius: 10px;
-        transition: linear 0.3s;
-    }
-    .tabs-li.activo{
-        background-color: #00000086;
-    }
-    
-    .subcontenedor{
-        position: relative;
-        height: 100%;
-    }
-    
-    .tabs-cont{
-        position: absolute;
-        top: 35px;
-        left: 25%;
-        width: 50%;
-        height: 70%;
-        opacity: 0;
-        border-radius: 10px;
+    justify-items: center;
+}
 
-    }
-    .subcontenedor .tabs-cont.activo{
-        opacity: 1;
-        transition: linear 0.3s;
+.tabs-li {
+    list-style-type: none;
+    padding: 8px;
+    border-radius: 10px;
+    transition: linear 0.3s;
+}
 
-    }
-    .tabs  {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        min-width: 300px;
-        border-radius: 10px;
-        box-shadow: 4px 6px #0000005d;
-        width: 40vw;
-        height: 100%;
-        min-height: 15vw;
-        min-width: 15vw;
-        border-radius: 20px;
-        background-color: #0000001a;
-    }
+.tabs-li.activo {
+    background-color: #00000086;
+}
 
-    .acordeon{
-        width: 90%;
-        max-width: 20rem;
-        padding: 2rem;
-        color: var(--negro);
-        -webkit-transition: all 0.4s ease;
-        transition: all 0.4s ease;
-        border-radius: 1rem;
-    }
-    .acordeon  .bloque{
-        margin: 0 0 1rem;
-        padding: 1rem;
-        color: var(--negro);
-        -webkit-transition: all 0.4s ease;
-        transition: all 0.4s ease;
-        border-radius: 1rem;
-    }
-    .acordeon .h2{
-        margin: 0 0 1rem;
-        padding: 1rem;
-        color: var(--negro);
-        -webkit-transition: all 0.4s ease;
-        transition: all 0.4s ease;
-        border-radius: 1rem;
-    }
-    .acordeon .contenido{
+.subcontenedor {
+    position: relative;
+    height: 100%;
+}
 
-        height: 0;
-        padding: 0rem;
-        overflow: hidden;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    .acordeon .bloque.activo .contenido{
-        height: 4em;
-    }
+.tabs-cont {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    opacity: 0;
+    border-radius: 10px;
+
+}
+
+.subcontenedor .tabs-cont.activo {
+    opacity: 1;
+    transition: linear 0.3s;
+
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 6px #0000005d;
+    width: 40vw;
+    height: 100%;
+    min-height: 15vw;
+    min-width: 15vw;
+    border-radius: 20px;
+    background-color: #0000001a;
+}
+
+.acordeon {
+    width: 90%;
+    max-width: 800px;
+    padding: 2rem;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+}
+
+.acordeon .bloque {
+    margin: 0 0 0 auto;
+    padding: 1rem 1rem 0px 1rem;
+    width: 100%;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+    background-color: #000000;
+}
+
+.acordeon .h2 {
+    all: unset;
+    box-sizing: border-box;
+    margin: 0 0 1rem;
+    padding: 0.5rem 94% 0.5rem 0.5rem;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+    background-color: #00aaad69;
+    cursor: pointer;
+}
+
+.acordeon .h2:hover {
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+    background-color: var(--blanco);
+}
+
+.acordeon .contenido {
+    height: 0;
+    background-color: #992A79;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.acordeon .bloque.activo .contenido {
+    padding: 0.9rem;
+    /* margin: 14px auto 80px auto; */
+    height: 4rem;
+}
+
+.acordeon .bloque.activo {
+    padding-bottom: 2px;
+}
