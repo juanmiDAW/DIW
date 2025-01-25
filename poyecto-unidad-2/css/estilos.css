@@ -414,6 +414,10 @@ nav a {
     height: 50vw;
     border-radius: 10px;
 } */
+ .img-quienes img{
+    border-radius: 10px;
+    width: 100%;
+ }
 
 .grid-quienes-titulo {
     text-align: center;
@@ -700,7 +704,7 @@ nav a {
     width: 90%;
     max-width: 800px;
     padding: 2rem;
-    transition: all 0.4s ease;
+    transition: all 0.4s linear;
     border-radius: 1rem;
 }
 
@@ -708,7 +712,7 @@ nav a {
     margin: 0 0 0 auto;
     padding: 1rem 1rem 0px 1rem;
     width: 100%;
-    transition: all 0.4s ease;
+    transition: all 0.4s linear;
     border-radius: 1rem;
     background: #00000048;
     /* opacity: 0.5; */
@@ -719,7 +723,7 @@ nav a {
     box-sizing: border-box;
     margin: 0 0 1rem;
     padding: 0.5rem auto 0.5rem 0.5rem;
-    transition: all 0.4s ease;
+    transition: all 0.4s linear;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5em;
@@ -727,7 +731,7 @@ nav a {
 }
 
 .acordeon .bloque:hover {
-    transition: all 0.6s ease;
+    transition: all 0.4s linear;
 background-color: #0000006e;
 }
 
@@ -737,7 +741,7 @@ background-color: #0000006e;
     border-radius: 10px;
     padding: 0;
     overflow: hidden;
-    transition: all 0.5s linear;
+    transition: all 0.4s linear;
     
 }
 
@@ -749,3 +753,63 @@ background-color: #0000006e;
 .acordeon .bloque.activo {
     padding-bottom: 2px;
 }
+
+.gallery {
+    background-color: #00000077;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 20px; /* Separa la galería del footer */
+  }
+  .gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Todas las imágenes tendrán la misma proporción */
+    object-fit: cover; /* Ajusta el contenido sin distorsión */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Lightbox styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .lightbox.active {
+    display: flex;
+  }
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+  }
+  .lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .lightbox .close:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+  }

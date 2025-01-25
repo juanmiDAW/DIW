@@ -37,3 +37,30 @@ h2.forEach((cadaH2, i) => {
     });
 });
 
+const gallery = document.querySelectorAll('.gallery img');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = lightbox.querySelector('img');
+const closeBtn = lightbox.querySelector('.close');
+
+// Abrir lightbox al hacer clic en una imagen
+gallery.forEach(img => {
+  img.addEventListener('click', () => {
+    const fullSizeImg = img.getAttribute('data-full');
+    lightboxImg.src = fullSizeImg;
+    lightbox.classList.add('active');
+  });
+});
+
+// Cerrar lightbox
+closeBtn.addEventListener('click', () => {
+  lightbox.classList.remove('active');
+  lightboxImg.src = '';
+});
+
+// Cerrar lightbox al hacer clic fuera de la imagen
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) {
+    lightbox.classList.remove('active');
+    lightboxImg.src = '';
+  }
+});
