@@ -407,16 +407,8 @@ nav a {
 
 }
 
-/* .img-quienes {
-    background: url('../img/Coloration\ chez\ le\ coiffeur\ _\ 5\ bonnes\ raisons\ d\'aller\ en\ salon.jpeg');
-    background-size: cover;
-    width: 30vw;
-    height: 50vw;
-    border-radius: 10px;
-} */
  .img-quienes img{
     border-radius: 10px;
-    width: 100%;
  }
 
 .grid-quienes-titulo {
