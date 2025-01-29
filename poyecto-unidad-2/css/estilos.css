@@ -788,6 +788,7 @@ background-color: #0000006e;
   .lightbox img {
     max-width: 90%;
     max-height: 90%;
+    width: 50%;
     border-radius: 8px;
   }
   .lightbox .close {
