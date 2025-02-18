@@ -316,6 +316,7 @@ header p{
     border-radius: 10px;
     width: 20vw;
     transition: 0.5s;
+    color: #000000;
 }
 
 .cerca-de-ti:hover {
