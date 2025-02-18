@@ -236,7 +236,9 @@ nav a {
     text-decoration: none;
     color: #000000;
 }
-
+header p{
+    color: #000000;
+}
 .contenedor-header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -483,6 +485,10 @@ nav a {
     display: grid;
     justify-content: center;
     justify-items: center;
+}
+.div-email a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .correo i {
