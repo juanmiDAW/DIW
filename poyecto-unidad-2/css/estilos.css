@@ -2,7 +2,7 @@ body {
     margin: 0;
     background: linear-gradient(to right, #ec53c1, #91FBFD);
     font-family: sans-serif;
-    color: #FFFF;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     min-width: 100vh;
@@ -41,7 +41,7 @@ main{
 }
 
 .index-clientes{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.548);
     padding:  20px 10px;
     border-radius: 20px;
     display: flex;
@@ -86,7 +86,7 @@ main{
 }
 
 .index-negocios{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.548);
     padding:  20px 10px;
     border-radius: 20px;
     display: flex;
@@ -465,6 +465,7 @@ header p{
 }
 
 .contacto {
+    color: #000000;
     display: grid;
     justify-items: center;
     margin: 50px;
@@ -496,6 +497,9 @@ header p{
     margin-right: 30px;
 
 
+}
+.correo a{
+    color: #000000;
 }
 .flex-peluqueria{
     display: flex;
