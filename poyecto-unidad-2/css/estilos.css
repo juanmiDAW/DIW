@@ -440,18 +440,18 @@ header p{
     height: 50vw;
     border-radius: 10px;
 }
-
 .grid-quienes h2 {
+    color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.308);
     padding: 10px;
     border-radius: 20px;
 }
 
 .grid-quienes p {
     font-size: 20px;
-
+    
 }
 
 .grid-quienes {
@@ -459,7 +459,8 @@ header p{
     grid-template-columns: 2fr 1fr;
     column-gap: 50px;
     margin: 70px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.185);
+    color: #000;
     padding: 30px;
     border-radius: 20px;
 }
@@ -502,6 +503,7 @@ header p{
     color: #000000;
 }
 .flex-peluqueria{
+    color: #000000;
     display: flex;
     margin: 70px;
     justify-content: space-evenly;
@@ -523,9 +525,6 @@ header p{
 .peluqueria-img img{
     width: 15vw;
     border-radius: 20px;
-}
-.peluqueria-img{
-    
 }
 .container-servicio{
     display: flex;
@@ -552,6 +551,7 @@ header p{
     width: 100%;
 }
 .boton-reservar{
+    color: #FFFFFF;
     background-color: #000000;
     padding: 5px 10px;
     border-radius: 10px;
@@ -559,5 +559,5 @@ header p{
     transition: 0.5s;
 }
 .boton-reservar:hover{
-    background-color: #000000;
+    background-color: #ad28a2;
 }
