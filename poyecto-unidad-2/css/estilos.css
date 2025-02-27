@@ -232,6 +232,7 @@ nav div:hover {
 }
 
 nav a {
+    width: 100%;
     text-decoration: none;
     color: #FFFFFF;
 }
