@@ -209,14 +209,20 @@ footer {
 
 
 nav {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    /* display: flex;
+    grid-template-columns: repeat(8, 1fr); */
     justify-items: center;
+    justify-content: space-between;
     box-shadow: 0 2px #00000021;
+}
+.nav-flex{
+    display: flex;
+    justify-content:space-evenly;
 }
 
 nav div {
-    width: 100%;
+    border-radius: 5px;
+    width: 60%;
     text-align: center;
     transition: 0.5s;
 }
